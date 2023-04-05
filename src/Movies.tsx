@@ -6,10 +6,12 @@ function MovieList() {
   return (
     <>
       <div>
-        <h3>Joel Hilton's Movie Collection</h3>
+        <br />
+        <h3>Movie Collection</h3>
+        <br />
       </div>
-      <table className="table">
-        <thead>
+      <table className="table table-striped table-light table-hover">
+        <thead className="">
           <tr>
             <th>Title</th>
             <th>Year</th>
