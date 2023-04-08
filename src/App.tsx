@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import TopBanner from './Home';
 import MyPodcasts from './MyPodcasts';
-import MovieList from './Movies';
+import MovieList from './movie/MovieList';
 import { BrowserRouter, Route, Link, Routes } from 'react-router-dom';
 
 function App() {
